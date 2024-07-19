@@ -4,7 +4,9 @@
   "description": "cypressE2Eproject",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "srun": "sudo npx cypress run",
+    "sopen": "sudo npx cypress open"
   },
   "author": "Gaurav",
   "license": "ISC",
